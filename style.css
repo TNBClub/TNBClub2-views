@@ -16,6 +16,7 @@ height: 2000px
 }
 
 header {
+    position: relative;
     font-size: 14px;
     z-index: 5;
     display: flex;
@@ -74,14 +75,33 @@ header.scrolled{
 }
 
 
-#hero{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background: green;
-    overflow: hidden;
-    z-index: -1;
+
+
+
+ .hero{
+    position: absolute !important;
+    top: 0 !important;
+    height: 100% !important;
+/* z-index: -1; */
 }
 
+/*
+.hero.activated{
+    background: yellow;
 
+} 
+*/
+
+
+.slider--item{
+    min-height: 800px;
+}
+.slider--item:nth-child(1){
+    background: green;
+}
+.slider--item:nth-child(2){
+    background: blue;
+}
+.slider--item:nth-child(3){
+    background: red;
+}
