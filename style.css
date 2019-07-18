@@ -43,33 +43,33 @@ header.scrolled{
 
 }
 
-#logo-img {
+#logo--img {
     width: 200px;
 }
 
-#logo,.header-links,.menu-buttons {
+#logo,.header--links,.menu--buttons {
     flex-basis: 100%;
 }
 
-.header-links{
+.header--links{
     text-align: center;
 }
 
-.header-links>li {
+.header--links>li {
     display: inline-block;
     list-style-type: none;
     padding: 20px;
 
 }
 
-.header-links>li>a {
+.header--links>li>a {
     text-decoration: none;
     color: black;
 
 
 }
 
-.menu-buttons{
+.menu--buttons{
     text-align: center;
 }
 
